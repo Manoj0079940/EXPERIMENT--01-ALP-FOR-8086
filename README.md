@@ -127,6 +127,38 @@ ret
 ## Output  
 ![Screenshot 2025-03-11 050631](https://github.com/user-attachments/assets/44acf03d-6c84-4045-bf40-8ca0c5cd2bc5)
 
+## Bitwise AND
+```
+MOV AL, 5AH  
+MOV BL, 37H  
+AND AL, BL
+```
+## output
+![Screenshot 2025-03-11 052540](https://github.com/user-attachments/assets/8f7ad12f-ae90-4bc4-95de-cf8c79ca63f6)
+
+## Bitwise OR
+```
+MOV AL, 5AH   
+OR AL, BL
+```
+## output
+![Screenshot 2025-03-11 052601](https://github.com/user-attachments/assets/5842480b-8f5e-4003-8a56-f30fa93a4996)
+
+## Bitwise XOR
+```
+MOV AL, 5AH   
+XOR AL, BL
+```
+##  output
+![Screenshot 2025-03-11 052620](https://github.com/user-attachments/assets/9eedebac-39fe-4444-bc32-58aa55e0450f)
+
+## Bitwise NOT
+```
+MOV AL, 5AH  
+NOT AL
+```
+## output
+![Screenshot 2025-03-11 052634](https://github.com/user-attachments/assets/156e01bf-d2a9-48d4-b42b-7ac4185732fd)
 
 ## Result :
 The execution of ALP on fundamental arithmetic and logical operations is successfully completed. 
